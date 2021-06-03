@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/run"
+    >
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="120dp"
+        android:background="@drawable/logo"
+        android:ems="10"
+        />
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/editFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="FULL_NAME"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/editCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CITY"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/editBornPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DATE NAISSANCE"
+        android:inputType="text"
+        />
+    <Button
+        android:id="@+id/btnAdd"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:text="ADD RUNNER"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnAllData"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:text="ALL DATA"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnDelete"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_bg"
+        android:text="DELETE RUNNER"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/><Button
+    android:id="@+id/btnUpdate"
+    android:textAllCaps="false"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/white"
+    android:background="@drawable/button_bg"
+    android:text="UPDATE RUNNER"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
